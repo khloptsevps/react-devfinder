@@ -19,7 +19,7 @@ export const InfoItem = ({ icon, text, isLink }: InfoItemProps) => {
       }`}
     >
       {icon}
-      {isLink ? (
+      {isLink && text !== 'none' ? (
         <a
           href={currentHref}
           target="_blank"
