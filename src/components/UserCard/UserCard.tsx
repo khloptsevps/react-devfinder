@@ -2,6 +2,7 @@ import { UserStat } from 'components/UserStat';
 import styles from './UserCard.module.scss';
 import { LocalUser } from 'types';
 import { UserTitle } from 'components/UserTitle';
+import { UserInfo } from 'components/UserInfo';
 
 interface UserCardProps extends LocalUser {}
 
@@ -16,6 +17,12 @@ export const UserCard = (props: UserCardProps) => (
       repos={props.repos}
       followers={props.followers}
       following={props.following}
+    />
+    <UserInfo
+      blog={props.blog}
+      location={props.location}
+      twitter={props.twitter}
+      company={props.company}
     />
   </div>
 );
