@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-devfinder/static/css/main.f1b017bc.css",
-    "main.js": "/react-devfinder/static/js/main.788a6fcf.js",
+    "main.js": "/react-devfinder/static/js/main.81b785eb.js",
     "static/media/icon-sun.svg": "/react-devfinder/static/media/icon-sun.c3177fa453380a8147df081ec10c2789.svg",
     "static/media/icon-website.svg": "/react-devfinder/static/media/icon-website.cf4904e442232792159e0e1bd2d500aa.svg",
     "static/media/icon-company.svg": "/react-devfinder/static/media/icon-company.6331bb91a37d52462978487317f0c6e9.svg",
@@ -11,10 +11,10 @@
     "static/media/icon-search.svg": "/react-devfinder/static/media/icon-search.0cc0c98424cc75d5e1dfbb9e3abb6785.svg",
     "static/media/icon-location.svg": "/react-devfinder/static/media/icon-location.f6d18983ab4be8b3314d51c208fba4d4.svg",
     "main.f1b017bc.css.map": "/react-devfinder/static/css/main.f1b017bc.css.map",
-    "main.788a6fcf.js.map": "/react-devfinder/static/js/main.788a6fcf.js.map"
+    "main.81b785eb.js.map": "/react-devfinder/static/js/main.81b785eb.js.map"
   },
   "entrypoints": [
     "static/css/main.f1b017bc.css",
-    "static/js/main.788a6fcf.js"
+    "static/js/main.81b785eb.js"
   ]
 }
