@@ -2,7 +2,9 @@
   "name": "ts-course-proj-2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://khloptsevps.github.io/react-devfinder/",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
@@ -10,7 +12,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "component": "generate-react component"
+    "component": "generate-react component",
+    "deploy": "gh-pages -d build",
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": [
