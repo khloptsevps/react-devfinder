@@ -1,17 +1,17 @@
 import { LocalUser } from 'types';
 
-export const user: LocalUser = {
-  login: 'khloptsevps',
-  id: 58054792,
-  avatar: 'https://avatars.githubusercontent.com/u/58054792?v=4',
-  name: 'Khloptsev Petr',
-  company: null,
-  blog: 'none',
-  location: 'Khabarovsk',
+export const defaultUser: LocalUser = {
+  login: 'octocat',
+  id: 583231,
+  avatar: 'https://avatars.githubusercontent.com/u/583231?v=4',
+  name: 'The Octocat',
+  company: '@github',
+  blog: 'https://github.blog',
+  location: 'San Francisco',
   bio: null,
+  repos: 8,
   twitter: null,
-  repos: 20,
-  followers: 1,
-  following: 1,
-  created: '2019-11-21T23:44:12Z',
+  followers: 8425,
+  following: 9,
+  created: '2011-01-25T18:44:36Z',
 };
